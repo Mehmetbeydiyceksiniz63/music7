@@ -21,7 +21,6 @@ themes = [
     "alexa5",
     "alexa6",
     "alexa7",
-    "alexa8",
 ]
 
 
