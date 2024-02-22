@@ -139,19 +139,21 @@ async def gen_thumb(videoid, user_id, theme):
         ImageFont.truetype("assets/font.ttf", 25)
         para = textwrap.wrap(title, width=32)
         try:
-            text_w, text_h = draw.textsize(f"ALEXA MUSIC IS PLAYING OP", font=font)
+            text_w, text_h = draw.textsize(f"Mamakklı ya teşekkürler", font=font)
             draw.text(
                 ((1280 - text_w) / 2, 30),
-                f"ALEXA MUSIC IS PLAYING OP",
+                f"mamaklıya teşekkürler",
                 fill="red",
                 font=font,
             )
             text_w, text_h = draw.textsize(
-                f"Alexa Music One Of The Most Advanced Telegram Music Bot", font=arial
+                f"mamaklı iyiki var",
+                fill="green",
+                font=arial,
             )
             draw.text(
                 ((1280 - text_w) / 2, 80),
-                f"Alexa Music One Of The Most Advanced Telegram Music Bot",
+               f"mamaklı iyiki var",
                 fill="green",
                 font=arial,
             )
@@ -177,10 +179,10 @@ async def gen_thumb(videoid, user_id, theme):
                 )
         except:
             pass
-        text_w, text_h = draw.textsize(f"YouTube: Jankari Ki Duniya", font=arial)
+        text_w, text_h = draw.textsize(f"YouTube: yoodelidegilim", font=arial)
         draw.text(
             ((1280 - text_w) / 2, 620),
-            f"YouTube: Jankari Ki Duniya",
+            f"YouTube: yoodelidegilim",
             fill="white",
             font=arial,
         )
@@ -298,19 +300,19 @@ async def gen_qthumb(videoid, user_id, theme):
         ImageFont.truetype("assets/font.ttf", 25)
         para = textwrap.wrap(title, width=32)
         try:
-            text_w, text_h = draw.textsize(f"ALEXA ADDED THIS SONG TO QUEUE", font=font)
+            text_w, text_h = draw.textsize(f"MAMAKLİ ADDED THIS SONG TO QUEUE", font=font)
             draw.text(
                 ((1280 - text_w) / 2, 30),
-                f"ALEXA ADDED THIS SONG TO QUEUE",
+                f"MAMAKLİ ADDED THIS SONG TO QUEUE",
                 fill="red",
                 font=font,
             )
             text_w, text_h = draw.textsize(
-                f"Alexa Music One Of The Most Advanced Telegram Music Bot", font=arial
+                f"Mamakli Music One Of The Most Advanced Telegram Music Bot", font=arial
             )
             draw.text(
                 ((1280 - text_w) / 2, 80),
-                f"Alexa Music One Of The Most Advanced Telegram Music Bot",
+                f"Mamakli Music One Of The Most Advanced Telegram Music Bot",
                 fill="green",
                 font=arial,
             )
@@ -336,10 +338,10 @@ async def gen_qthumb(videoid, user_id, theme):
                 )
         except:
             pass
-        text_w, text_h = draw.textsize(f"YouTube: Jankari Ki Duniya", font=arial)
+        text_w, text_h = draw.textsize(f"YouTube: yoodelidegilim", font=arial)
         draw.text(
             ((1280 - text_w) / 2, 620),
-            f"YouTube: Jankari Ki Duniya",
+            f"YouTube: yoodelidegilim",
             fill="white",
             font=arial,
         )
