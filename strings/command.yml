@@ -35,7 +35,7 @@ UNMUTE_COMMAND : ["unmute", "cunmute", "sesli"]
 STOP_COMMAND : ["bitir", "end", "cstop", "cend"]
 SKIP_COMMAND : ["skip", "cskip", "atla"]
 SHUFFLE_COMMAND : ["shuffle", "cshuffle"]
-LOOP_COMMAND : ["loop", "cloop", "tekrarla"]
+LOOP_COMMAND : ["loop", "cloop", "dongu"]
 SEEK_COMMAND : ["seek", "cseek", "seekback", "cseekback"]
 RESTART_COMMAND : ["restart"]
 
