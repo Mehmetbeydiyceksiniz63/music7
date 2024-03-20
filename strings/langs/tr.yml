@@ -1,4 +1,4 @@
-name : Turkish
+name : 🇹🇷 Turkish
 
 # General Strings
 general_1 : "Bir kullanıcının mesajını yanıtlayın veya username/user_id verin."
@@ -65,12 +65,12 @@ admin_27 : "Döngü Oynatma devre dışı bırakıldı"
 
 # Bot 
 # Start
-start_1 : "Beni {0}'e davet ettiğiniz için teşekkürler.\n{1} çalışıyor.\n\nHerhangi bir yardım için destek grubumuza veya kanalımıza göz atın.."
-start_2 : "Merhaba, Benim adım {0}.\n\nBazı kullanışlı özelliklere sahip bir telegram müzik botuyum. Youtube, Spotify, Resso, AppleMusic , Soundcloud vb. Destekleyici platformlar\n\nBeni gruplarınıza eklemekten çekinmeyin."
-start_3 : "Hoş Geldiniz {0}\n\nÇalışmak için herhangi bir **yönetici iznine** ihtiyacım yok ( isteninceye kadar).\n\nAsistan Kullanıcı Adı:- @{1}\nAsistan Kimliği:- {2}"
-start_4 : "{0}'s Owner[{1}] sohbetinize katıldı."
-start_5 : "{0} adlı kullanıcının Sudo Kullanıcısının[{1}] bir üyesi sohbetinize az önce katıldı."
-start_6 : "❗️ **Süper Grup Gerekli** ❗️\n\nLütfen **grubunuzu** **süper gruba** dönüştürün ve sonra beni tekrar ekleyin.\n\n**Üst grup nasıl yapılır?**\n✅ Grubunuzun sohbet geçmişini oluşturun **görünür** yapın önce."
+start_1 : "{0} AKTİFİM BEBEĞİM.\n\n<b>✫ ŞU ZAMANDAN :</b> {1}"
+start_2 : "<b>Hey</b>{0},\n\n© BU {1}!\n\n+BAZI HARİKA ÖZELLİKLERE SAHİP HIZLI VE GÜÇLÜ TELEGRAM MÜZİK ÇALAR BOTU.\n\n<b> <U>DESTEKLENEN PLATFORMLAR:</b></U>YOUTUBE, SPOTIFY, RESSO, APPLE MUSIC VE SOUNDCLOUD.\n n<b> YARDIM DÜĞMESİNİ TIKLAYIN MODÜLLERİM VE KOMUTLARIM HAKKINDA BİLGİ ALMAK İÇİN.</b>"
+start_3 : "HEY {0],\NBU {1]\n\NT BENİ {2}, (3} CAN'A EKLEDİĞİNİZ İÇİN TEŞEKKÜR EDERİM ŞİMDİ BU SOHBETTE ŞARKILARI ÇAL"
+start_4 : "🎄  <b>SÜPER GRUP</b> GEREKLİ</b>\n\nLÜTFEN <b>GRUBUNUZU</b> <b>SÜPER GRUP</b>'A DÖNÜŞTÜRÜN VE SONRA BENİ YENİDEN EKLEYİN.\n\n<b>NASIL SÜPERGRUBU HALE GETİRMEK İÇİN?</b>\n-GRUBUNUZUN SOHBET GEÇMİŞİNİ BİR KEZ <b>GÖRÜNÜR</b> HALE GETİRİN."
+start_5 : "<b> KARA LİSTEDE SOHBET</b>\n\nBU SOHBET {0} DATABASE'DE KARA LİSTEDE.\NREQUEST BİR <a href={1)>SUDO KULLANICISI</a> SOHBETİNİZİ KARA LİSTEDEN KALDIRMAK İÇİN VEYA <a href={2)>SOHBETİ DESTEKLEYİN.</'i ZİYARET ETMEK İÇİN. a>"
+start_6 : "😲 <b>PARÇA AYRINTILARI</b> 😲\n\n📌 <b>BAŞLIK :</b> {0}\n\n⏳ <b>SÜRE :</b> {1} DAKİKA\n👀 <b>GÖRÜNTÜLENME :</b> <code>{2}</code>\n⏰ <b>YAYINLANDI :</b> {3}\n📎 <b>KANAL :</b> <a href={4}>{5}</a>\n\n<u><b>🥀 TARAFINDAN ARANDI {6}</b></u>"
 
 # Help
 help_1 : "Daha fazla bilgi için aşağıdaki butonlara tıklayın. Komutlar ve öğreticileri görmek istiyorsanız ( botun nasıl çalıştığı hakkında merak edilenler ve her şey ):-\n\nTüm komutlar aşşağıdaki butonlara basarak görebilirsiniz: /"
@@ -217,8 +217,9 @@ queue_3 : "<u>**Queued Tracks:</u>**  [Checkout More Queued Tracks From Here]({0
 queue_4 : "⏳ Sıraya eklendi **#{0}\n\n🔘Başlık:** {1}\n**⏱Süre:** {2}\n👉**Talep Eden:** {3}"
 
 # All Streaming Lines
-stream_1 : "📡 **Yayın Başladı**\n\n👉**Talep Eden:** {0}\n🔦**Bilgi: **[Buradan]({1})"
-stream_2 : "📡 **URL ile Yayına Başladı **\n\n👉**Talep Eden:** {0}"
+
+stream_1 : "➲ <b>YAYIN BAŞLADI |</b>\n\n<b>‣ BAŞLIK :</b> <a href={0}>{1}</a>\n<b>‣ SÜRE :</b> {2} DAKİKA\n<b>‣ TALEP EDEN :</b> {3}"
+stream_2 : "➲ <b>YAYIN BAŞLADI |</b>\n\n<b>‣ Sᴛʀᴇᴀᴍ ᴛʏᴘᴇ :</b> ʟɪᴠᴇ sᴛʀᴇᴀᴍ [ᴜʀʟ]\n<b>‣ Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ :</b> {0}"
 stream_3 : "📡 **Yayın Başladı**\n\n**🔘Başlık:** {0}\n⌛️**Süre**: {1}\n👤**İsteyen:** {2}"
 stream_4 : "📡 **Akış Başlatıldı**\n\n**🔘Başlık:** [{0}]({1})\n⌛️**Süre**: {2}\n👤**İsteyen:** {3}"
 
@@ -234,14 +235,14 @@ UNBAN_BUTTON : "🗑 Asistanın yasağını kaldır"
 L_B_1 : "🚀 Şarkı Sözlerini Şimdi Kontrol Et"
 
 # Start
-S_B_1 : "🗒 Komutlar"
-S_B_2 : "🔧 Ayarlar"
-S_B_3 : "📨 Destek"
-S_B_4 : "📨 Kanal"
-S_B_5 : "✚ Beni Grubuna ekle"
-S_B_6 : "💡 Git Repo"
-S_B_7 : "👤 Bot Owner"
-S_B_8 : "🔎 Nasıl kullanılır? Komutlar Menüsü."
+S_B_1 : "✨ Komutlar✨"
+S_B_2 : "✨ destek✨"
+S_B_3 : "✨ beni grubuna ekle✨"
+S_B_4 : "✨ komutlar✨"
+S_B_5 : "✨ SAHİBİ✨"
+S_B_6 : "✨ kanal✨"
+S_B_7 : "✨ git repo✨"
+S_B_8 : "✨ Nasıl kullanılır? Komutlar Menüsü."
 
 #Help 
 H_B_1 : "Admin Commands"
@@ -352,6 +353,17 @@ black_8 : "Kara Listeye Alınmış Sohbet Yok"
 #videolimit
 vid_1 : "**Kullanım:**\n/set_video_limit [İzin verilen sohbet sayısı] veya [Disable]"
 vid_2 : "Lütfen Limiti Ayarlamak için Sayısal Rakamlar Kullanın."
+vid_3 : "Görüntülü Görüşmelerin Maksimum Sınırı, {0} Sohbet İçin Tanımlandı."
+vid_4 : "Görüntülü Görüşmeler Devre Dışı"
+
+#maintenance
+maint_1 : "**Kullanım:**\n/maintenance [enable|disable]"
+maint_2 : "Bakım için Etkinleştirildi"
+maint_3 : "Bakım Modu Devre Dışı"
+
+#log
+log_1 : "**Kullanım:**\n/logger [enable|disable]"
+log_2 : "Günlük Loglar Etkin"
 vid_3 : "Görüntülü Görüşmelerin Maksimum Sınırı, {0} Sohbet İçin Tanımlandı."
 vid_4 : "Görüntülü Görüşmeler Devre Dışı"
 
