@@ -43,14 +43,14 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Mamaklicengo/Mamaklimusic7",
+    "https://github.com/Mamaklicengo/Mamaklimusic6",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/mamaklibirininruhu")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/mamaklimekani")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/mehmetttbio")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/hissizmehmet")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
@@ -105,67 +105,67 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/Eski-11-29"
+    "START_IMG_URL", "https://te.legra.ph/musickss-03-12"
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/Yeni-11-29",
+    "https://te.legra.ph/musickss-03-12",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "https://telegra.ph/Yeni-11-29",
+    "https://te.legra.ph/musickss-03-12",
 )
 
 GLOBAL_IMG_URL = getenv(
     "GLOBAL_IMG_URL",
-    "https://telegra.ph/Eski-11-29",
+    "https://te.legra.ph/musickss-03-12",
 )
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "https://telegra.ph/Eski-11-29",
+    "https://te.legra.ph/musickss-03-12",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
     "TELEGRAM_AUDIO_URL",
-    "https://telegra.ph/Yeni-11-29",
+    "https://te.legra.ph/musickss-03-12",
 )
 
 TELEGRAM_VIDEO_URL = getenv(
     "TELEGRAM_VIDEO_URL",
-    "https://telegra.ph/Yeni-11-29",
+    "https://te.legra.ph/musickss-03-12",
 )
 
 STREAM_IMG_URL = getenv(
     "STREAM_IMG_URL",
-    "https://telegra.ph/Yeni-11-29",
+    "https://te.legra.ph/musickss-03-12",
 )
 
 SOUNCLOUD_IMG_URL = getenv(
     "SOUNCLOUD_IMG_URL",
-    "https://telegra.ph/Eski-11-29",
+    "https://te.legra.ph/musickss-03-12",
 )
 
 YOUTUBE_IMG_URL = getenv(
     "YOUTUBE_IMG_URL",
-    "https://telegra.ph/Eski-11-29",
+    "https://te.legra.ph/musickss-03-12",
 )
 
 SPOTIFY_ARTIST_IMG_URL = getenv(
     "SPOTIFY_ARTIST_IMG_URL",
-    "https://telegra.ph/Eski-11-29",
+    "https://te.legra.ph/musickss-03-12",
 )
 
 SPOTIFY_ALBUM_IMG_URL = getenv(
     "SPOTIFY_ALBUM_IMG_URL",
-    "https://telegra.ph/Eski-11-29",
+    "https://te.legra.ph/musickss-03-12",
 )
 
 SPOTIFY_PLAYLIST_IMG_URL = getenv(
     "SPOTIFY_PLAYLIST_IMG_URL",
-    "https://telegra.ph/Eski-11-29",
+    "https://te.legra.ph/musickss-03-12",
 )
 
 
@@ -266,7 +266,7 @@ if SOUNCLOUD_IMG_URL:
             sys.exit()
 
 if YOUTUBE_IMG_URL:
-    if YOUTUBE_IMG_URL != "https://telegra.ph/Eski-11-29":
+    if YOUTUBE_IMG_URL != "https://te.legra.ph/musickss-03-12":
         if not re.match("(?:http|https)://", YOUTUBE_IMG_URL):
             print(
                 "[ERROR] - Your YOUTUBE_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -275,7 +275,7 @@ if YOUTUBE_IMG_URL:
 
 
 if TELEGRAM_VIDEO_URL:
-    if TELEGRAM_VIDEO_URL != "https://telegra.ph/Eski-11-29":
+    if TELEGRAM_VIDEO_URL != "https://te.legra.ph/musickss-03-12":
         if not re.match("(?:http|https)://", TELEGRAM_VIDEO_URL):
             print(
                 "[ERROR] - Your TELEGRAM_VIDEO_URL url is wrong. Please ensure that it starts with https://"
